@@ -1,0 +1,73 @@
+body {
+  background-color: blanchedalmond;
+}
+
+.id1 {
+  border-left-color: rgb(124, 10, 10);
+  border-left-width: 5px;
+  border-left-style: solid;
+  font-size: 30px;
+  background-color: bisque;
+}
+
+.table1 {
+  border-collapse: collapse;
+  border-style: solid;
+}
+
+th,
+td {
+  font-size: 21px;
+  width: 100%;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+.id2 {
+  font-size: 30px;
+  background-color: rgb(124, 10, 10);
+  border-radius: 25px;
+  margin: 5%;
+  padding-left: 2%;
+  width: 700px;
+  color: antiquewhite;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(190, 60, 60);
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  padding-bottom: 23px;
+  padding-left: 12px;
+  background-color: rgb(124, 10, 10);
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 66px;
+  transition: background-color 0.2s ease;
+}
+
+.download-btn:hover {
+  background-color: blanchedalmond;
+  color: black;
+  border-color: rgb(23, 12, 12);
+}
+
+pre {
+  font-size: 25px;
+}
+
+.id3 {
+  background-color: bisque;
+  border-top-color: rgb(124, 10, 10);
+  border-top-width: 5px;
+  border-top-style: solid;
+  background-color: bisque;
+  border-left-color: rgb(124, 10, 10);
+  border-left-width: 5px;
+  border-left-style: solid;
+}
